@@ -5,8 +5,8 @@ import * as tweetController from '../controller/tweet.js';
 
 const router = express.Router();
 
-// GET /tweets
-// GET /tweets?username=:username
+//GET /tweets
+//GET /tweets?username=:username
 router.get('/', tweetController.getTweets);
 
 //GET /tweets/id
